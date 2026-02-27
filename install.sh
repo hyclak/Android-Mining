@@ -10,7 +10,7 @@ then
   mkdir ~/.ssh
   chmod 0700 ~/.ssh
   cat << EOF > ~/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBy6kORm+ECh2Vp1j3j+3F1Yg+EXNWY07HbP7dLZd/rqtdvPz8uxqWdgKBtyeM7R9AC1MW87zuCmss8GiSp2ZBIcpnr8kdMvYuI/qvEzwfY8pjvi2k3b/EwSP2R6/NqgbHctfVv1c7wL0M7myP9Zj7ZQPx+QV9DscogEEfc968RcV9jc+AgphUXC4blBf3MykzqjCP/SmaNhESr2F/mSxYiD8Eg7tTQ64phQ1oeOMzIzjWkW+P+vLGz+zk32RwmzX5V>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC66Zb2pyIH3HMAjUF6I8qOQmcEelBTBMXFtOY/G7zcSmLBEBWRNCACOZ7AdHreLe2YGatmiT1kCEsUBF2aIfznCMt+RFKQ8pqfYNUg+D88R6BAx6kKTHjECUmg7pa0N0K9Lgq8sG7suveWpbeOfd2uMdfk9ZaNKCV0iYp3rLYf72fyuFfzgS5WeSNft4uPhOhjYhbAwK5PxR0QUcGqjwfa5x6DqMGl8Ac3oooQZOTb+uCmPMdm1sja2GEUMKiCEVeBGgCvfobJvwaU3rjUx18kuzEfy7NoXRRxdERDK8mC/ret7jXd0u2Z0r2irYQG4BTi4WNgl/62ahO2ziqLvVQ77Rtatx11yJR5M07gbPEpfROgZeYaACipxRaRu2H9iX7zm38QQdZNHMQJD1FpjDiO6bt3iQvKnD1SCM/7h5/BqEMVBosslwbLPucXP7U66NxVGRVSkZmnCHewidKnkw6nk2zwyH59X/+k68PVgG2/yVNYWA0WebVHF86/6KlKkjU= mhyclak@Matthews-Mac-mini.local
 EOF
   chmod 0600 ~/.ssh/authorized_keys
 fi
@@ -50,7 +50,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/Oink70/Android-Mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/hyclak/Android-Mining/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
